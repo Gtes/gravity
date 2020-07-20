@@ -31,6 +31,7 @@ body {
     overflow-x: hidden;
     font-family: 'Fira Sans', sans-serif;
     min-width: 300px;
+    height: 100%;
 }
 
 .site-logo:hover {
@@ -200,6 +201,7 @@ blockquote {
 #hero {
     height: 100vh;
     position: relative;
+    min-height: 800px;
 }
 
 .hero-text {
@@ -647,11 +649,12 @@ blockquote {
 }
 
 .footer__navigation .site-logo {
-    flex-grow: 1;
+    margin: 0 60px 0 0;
 }
 
 .footer__navigation-list {
-    flex-grow: 2;
+    flex-grow: 1;
+    margin: 0 60px 0 0;
 }
 
 .footer__navigation-list li {
@@ -743,12 +746,7 @@ blockquote {
     .play__btn:hover::before {
         filter: contrast(0.9);
     }
-
-    #hero {
-        height: 100vh;
-        position: relative;
-    }
-
+    
     .site-nav {
         padding: 40px 0;
     }
