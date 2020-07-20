@@ -226,7 +226,7 @@ blockquote {
 .hero-img {
     grid-column: 7/13;
     grid-row: 1;
-    background: url(/assets/hero_placeholder.svg) no-repeat top center;
+    background: url(./assets/hero_placeholder.svg) no-repeat top center;
     background-size: cover;
 }
 
