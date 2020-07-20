@@ -761,7 +761,7 @@ blockquote {
         grid-column: 8/13;
         z-index: -1;
         opacity: 0.3;
-        background: url(/assets/hero_placeholder.svg) no-repeat center left;
+        background: url(./assets/hero_placeholder.svg) no-repeat center left;
     }
 
     .button-hero {
